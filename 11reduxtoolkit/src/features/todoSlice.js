@@ -1,5 +1,6 @@
 import { createSlice,nanoid } from "@reduxjs/toolkit";
 
+
 const initialState = {
     todos: [{id:1,text:"hello world"}]
 }
@@ -21,8 +22,10 @@ export const todoSlice = createSlice({
         updateTodo: (state,action)=>{
             // const {id, text} = action.payload
             state.todos = state.todos.map((todo)=>{
-                if(action.payload.id === id){
+                if(action.payload.id === todo.id){
                     return {...todo, text:action.payload}
+                }else{
+                    return todo
                 }
             })
         }

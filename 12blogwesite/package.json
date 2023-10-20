@@ -1,5 +1,5 @@
 {
-  "name": "11reduxtoolkit",
+  "name": "12blogwesite",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -11,9 +11,14 @@
   },
   "dependencies": {
     "@reduxjs/toolkit": "^1.9.7",
+    "@tinymce/tinymce-react": "^4.3.0",
+    "appwrite": "^13.0.0",
+    "html-react-parser": "^4.2.5",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-redux": "^8.1.3"
+    "react-hook-form": "^7.47.0",
+    "react-redux": "^8.1.3",
+    "react-router-dom": "^6.17.0"
   },
   "devDependencies": {
     "@types/react": "^18.2.15",
